@@ -3,8 +3,19 @@ In this project you will see the implementation of a Gateway API which will help
 Skills used in this project: Python3, FastAPI, sqlite3, Docker, Git.
 
 Features implemented in this project:
-User class: 1. Can create a user with username, email, height, weight and birth date. Username & email must be unique, all fields are mandatory. 2. Can list all the users, with their username & email only 3. Display a single user based on its username with all the info and their age (compute it from their birth date) 4. Delete a user based on its username 5. Edit a user. All fields are editable except username
-Nutrition class: 6. A user can add meals to its profile. A meal contains the name, date, calories and other nutritional values. This API will be used to gather the info https://api-ninjas.com/api/nutrition. 7. We can query a user's meals on a period of time. Give start date and end date to the API as query params. 8. A user can delete one of its meals from the same day. 9. A user can edit a meal from the same day or the day before. 10. A user can see the calories & nutritional values of all the meals from a given day. 11. A user can see the calories & nutritional values of a given period of time as a chart
+User class:
+* Can create a user with username, email, height, weight and birth date. Username & email must be unique, all fields are mandatory.
+* Can list all the users, with their username & email only
+* Display a single user based on its username with all the info and their age (compute it from their birth date)
+* Delete a user based on its username
+* Edit a user. All fields are editable except username
+Nutrition class:
+* The user can add meals to its profile. A meal contains the name, date, calories and other nutritional values. This API will be used to gather the info https://api-ninjas.com/api/nutrition.
+* We can query a user's meals on a period of time. Give start date and end date to the API as query params.
+* The user can delete one of its meals from the same day.
+* The user can edit a meal from the same day or the day before.
+* The user can see the calories & nutritional values of all the meals from a given day.
+* The user can see the calories & nutritional values of a given period of time as a chart
 
 The code is structured this way:
 
