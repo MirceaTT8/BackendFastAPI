@@ -3,13 +3,13 @@ In this project you will see the implementation of a Gateway API which will help
 Skills used in this project: Python3, FastAPI, sqlite3, Docker, Git.
 
 Features implemented in this project:
-User class:
+**User class**:
 * Can create a user with username, email, height, weight and birth date. Username & email must be unique, all fields are mandatory.
 * Can list all the users, with their username & email only
 * Display a single user based on its username with all the info and their age (compute it from their birth date)
 * Delete a user based on its username
 * Edit a user. All fields are editable except username
-Nutrition class:
+**Nutrition class**:
 * The user can add meals to its profile. A meal contains the name, date, calories and other nutritional values. This API will be used to gather the info https://api-ninjas.com/api/nutrition.
 * We can query a user's meals on a period of time. Give start date and end date to the API as query params.
 * The user can delete one of its meals from the same day.
